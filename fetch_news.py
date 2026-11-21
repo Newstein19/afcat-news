@@ -16,7 +16,8 @@ FEEDS = {
     "Defence": ["https://news.google.com/rss/search?q=indian+army+OR+navy+OR+%22air+force%22+OR+defence+when:1d&hl=en-IN&gl=IN&ceid=IN:en"],
 }
 PER_CATEGORY = 5
-MODEL = "gemini-2.5-flash"  # if you get a model error, pick a current free model in Google AI Studio
+# Free-tier Gemini models, tried in order (a 404 means that model is not available to your key)
+MODELS = ["gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite"]
 TODAY = datetime.date.today()
 
 def fetch(url):
@@ -40,18 +41,20 @@ def ask(prompt, tokens=8000):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         return None
-    try:
-        url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % MODEL
-        body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
-                           "generationConfig": {"responseMimeType": "application/json",
-                                                "maxOutputTokens": tokens}}).encode()
+    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
+                       "generationConfig": {"responseMimeType": "application/json",
+                                            "maxOutputTokens": tokens}}).encode()
+    for model in list(MODELS):
+        url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model
         req = urllib.request.Request(url, data=body, headers={
             "Content-Type": "application/json", "x-goog-api-key": key})
-        data = json.loads(urllib.request.urlopen(req, timeout=120).read())
-        return data["candidates"][0]["content"]["parts"][0]["text"]
-    except Exception as e:
-        print("AI call failed:", e)
-        return None
+        try:
+            data = json.loads(urllib.request.urlopen(req, timeout=120).read())
+            MODELS.remove(model); MODELS.insert(0, model)  # remember the one that works
+            return data["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception as e:
+            print("AI call failed with %s: %s" % (model, e))
+    return None
 
 def add_bullets(stories):
     """One AI call for all stories (keeps us inside free limits)."""
