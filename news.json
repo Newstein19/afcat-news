@@ -1,292 +1,332 @@
 [
  {
-  "id": "7c22d5232d",
+  "id": "00f14f2f48",
   "cat": "National",
-  "title": "States must drive next phase of reforms, says Montek Singh Ahluwalia",
-  "points": [],
+  "title": "Army personnel found dead near Jammu bus stand, police begin probe",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/news/cities/Hyderabad/states-must-drive-next-phase-of-reforms-says-montek-singh-ahluwalia/article71725437.ece"
- },
- {
-  "id": "03a9af3fff",
-  "cat": "National",
-  "title": "Polling begins for Municipal, Panchayat elections across Ladakh",
+  "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/army-personnel-found-dead-near-jammu-bus-stand-police-begin-probe/article71727623.ece",
+  "date": "2026-11-21",
   "points": [
-   "Polling, which started around 8 a.m., is underway in all 21 wards of the Leh Municipal Council, while representatives in four of the 17 wards of the Kargil Municipal Council have been elected unopposed"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/news/national/ladakh/ladakh-municipal-and-panchayat-elections/article71727478.ece"
+   "A police party rushed to the scene, and the body of the deceased was shifted to Government Medical College Hospital for postmortem to ascertain the cause of his death, the officials said"
+  ]
  },
  {
-  "id": "142ce46469",
+  "id": "f28b879d35",
   "cat": "National",
-  "title": "With highest polling station at 15,057 feet, India‘s high-altitude UT of Ladakh to witness panchayat, municipal polls on November 21",
+  "title": "Telangana SAFE suspends FSSAI licences of four Hyderabad eateries over food safety violations",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/news/cities/Hyderabad/telangana-safe-suspends-fssai-licences-of-four-hyderabad-eateries-over-food-safety-violations/article71727546.ece",
+  "date": "2026-11-21",
   "points": [
-   "Officials said in the Leh Municipal Council, elections will be held in all 21 wards, while four out of 17 wards in the Kargil Municipal Council have elected representatives unopposed"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/with-highest-polling-station-at-15057-feet-indias-high-altitude-ut-of-ladakh-to-witness-panchayat-municipal-polls-on-november-21/article71727502.ece"
+   "Inspections at the establishments in Hyderabad revealed cockroach infestation, rat droppings, unhygienic kitchen, improper segregation of vegetarian and non-vegetarian food, damaged flooring, use of synthetic food colour"
+  ]
  },
  {
-  "id": "6424593e44",
+  "id": "2d86093cb9",
   "cat": "National",
-  "title": "Telangana CM condoles demise of UP CM Yogi Adiyanath’s mother",
-  "points": [],
+  "title": "Remnants of Cyclone Akvan to bring rain in Bengal till November 22: IMD",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/news/national/telangana/telangana-cm-condoles-demise-of-up-cm-yogi-adiyanaths-mother/article71725569.ece"
- },
- {
-  "id": "1e511c7f0a",
-  "cat": "National",
-  "title": "After 9 years wait, woman delivers triplets following non-ART treatment; premature babies discharged after 1 month NICU care",
+  "link": "https://www.thehindu.com/news/national/west-bengal/remnants-of-cyclone-akvan-to-bring-rain-in-bengal-till-november-22-imd/article71727586.ece",
+  "date": "2026-11-21",
   "points": [
-   "Telangana government’s Gandhi Hospital doctors opted for ovulation induction, a non-assisted reproductive treatment, and she conceived in the second cycle"
-  ],
+   "According to the IMD, thunderstorms accompanied by gusty winds reaching speeds of 30-40 kmph are likely over most districts of south Bengal and a few places in north Bengal on Saturday"
+  ]
+ },
+ {
+  "id": "b1f591afe3",
+  "cat": "National",
+  "title": "One dies, four injured after a car plunges into gorge in Yercaud",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/news/cities/Hyderabad/woman-delivers-triplets-after-non-art-treatment-at-telangana-govt-hospital-premature-babies-discharged-after-nicu-care/article71725333.ece"
+  "link": "https://www.thehindu.com/news/national/tamil-nadu/one-dies-four-injured-after-a-car-plunges-into-gorge-in-yercaud/article71727600.ece",
+  "date": "2026-11-21",
+  "points": [
+   "Around 10.30 p.m., when the passengers were near Keeraikadu, the car went out of the driver’s control and plunged into a 100-foot-deep gorge along Yercaud-Kuppanur Ghat Road"
+  ]
+ },
+ {
+  "id": "a3b5b25777",
+  "cat": "National",
+  "title": "PM Modi says India has shown it can break limits, unlock possibilities",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/news/national/pm-modi-iit-kharagpur-bengal-updates-november-21-2026/article71727603.ece",
+  "date": "2026-11-21",
+  "points": [
+   "Prime Minister Narendra Modi said that over the last 12 years, his government had worked to break existing limitations and empower the poor"
+  ]
+ },
+ {
+  "id": "f9d0255b35",
+  "cat": "International",
+  "title": "Iraq fire at Basra power station kills at least four, injures 30",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/news/international/fire-at-basras-hartha-power-station-in-iraq/article71727609.ece",
+  "date": "2026-11-21",
+  "points": [
+   "Civil defence ‌teams brought the fire at the Hartha ‌power station north of Basra ‌under ⁠control after firefighters responded ⁠to the incident, says Iraq’s state news agency"
+  ]
  },
  {
   "id": "d3c935a3cb",
   "cat": "International",
-  "title": "FBI's criminal information database hacked, reports say",
-  "points": [
-   "The apparent compromise of the National ‌Crime Information Center database would ‌mark ⁠the second intrusion involving ⁠an FBI system in recent months"
-  ],
+  "title": "FBI, U.S. Agriculture Department breached by hackers, reports say",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/news/international/fbis-criminal-information-database-hacked-reports-say/article71727198.ece"
+  "link": "https://www.thehindu.com/news/international/fbis-criminal-information-database-hacked-reports-say/article71727198.ece",
+  "date": "2026-11-21",
+  "points": [
+   "The newly uncovered breaches at the FBI and USDA were described as hacks, which are different from outages like the ones that afflicted Microsoft Outlook and the Federal Aviation Administration"
+  ]
  },
  {
-  "id": "a366645f27",
+  "id": "a18ec6e638",
   "cat": "International",
-  "title": "Saudi-led coalition says downed 3 Houthi missiles headed for Riyadh",
-  "points": [
-   "Yemen's Houthis said on X that they were striking targets across Saudi Arabia, including in Riyadh"
-  ],
+  "title": "Pakistan Climate Minister arrives in Delhi to attend SCO Civilisations Dialogue Forum",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/news/international/saudi-led-coalition-says-downed-3-houthi-missiles-headed-for-riyadh/article71727179.ece"
- },
- {
-  "id": "b68f501584",
-  "cat": "International",
-  "title": "Three to tango: On Trump, Xi, Putin trilateral summit",
+  "link": "https://www.thehindu.com/news/international/pakistan-climate-minister-in-delhi-to-attend-sco-meeting/article71723340.ece",
+  "date": "2026-11-21",
   "points": [
-   "U.S., China, Russia must draw up a roadmap for talks on nuclear weapons"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/opinion/editorial/three-to-tango-on-trump-xi-putin-trilateral-summit/article71725845.ece"
+   "Pakistan is the current chair of the SCO Council of Heads of State (CHS) (SCO_CHS) for the period of 2026-27; the event, which will be inaugurated by PM Modi, will be held at Delhi’s iconic Purana Quila (Old Fort), a 16t"
+  ]
  },
  {
   "id": "3139116d9c",
   "cat": "International",
   "title": "‘Look at India, they have low interest rates’: Trump says U.S. could achieve 14–15% economic growth",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/news/international/look-at-india-they-have-low-interest-rates-trump-says-us-could-achieve-1415-economic-growth/article71727140.ece",
+  "date": "2026-11-21",
   "points": [
    "“In four days, I met more than 20 world leaders, secured two new trade deals, and about 10 others coming very soon,” Donald Trump told a press conference at the White House in Washington"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/news/international/look-at-india-they-have-low-interest-rates-trump-says-us-could-achieve-1415-economic-growth/article71727140.ece"
+  ]
  },
  {
   "id": "27bb11fc83",
   "cat": "International",
   "title": "Magnitude 6.9 earthquake shakes Peru’s Andes, with no damage or casualties immediately reported",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/news/international/peru-andes-earthquake-toll-updates-november-21-2026/article71727128.ece",
+  "date": "2026-11-21",
   "points": [
    "Peru's Geophysical Institute said no damage or casualties had been reported. The earthquake was felt in the Peruvian capital, prompting residents to rush into the streets"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/news/international/peru-andes-earthquake-toll-updates-november-21-2026/article71727128.ece"
+  ]
  },
  {
   "id": "09be953d9a",
   "cat": "Economy",
   "title": "What does EPFO’s Systematic Withdrawal Plan entail for retirees | Explained",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/business/Economy/what-does-epfos-systematic-withdrawal-plan-for-entail-for-retirees-explained/article71727225.ece",
+  "date": "2026-11-21",
   "points": [
    "As per the proposed SWP, upon retirement or superannuation, a member will have several options to receive the accumulated PF corpus or a part through periodic withdrawals instead of a lump-sum withdrawal"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/business/Economy/what-does-epfos-systematic-withdrawal-plan-for-entail-for-retirees-explained/article71727225.ece"
+  ]
  },
  {
   "id": "01a504d0a6",
   "cat": "Economy",
   "title": "Infra push and low base effect pushes core sector growth to series-high of 10.9% in October 2026",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/business/Economy/infra-push-and-low-base-effect-pushes-core-sector-growth-to-series-high-in-october-2026/article71724481.ece",
+  "date": "2026-11-21",
   "points": [
    "While the coal and electricity sectors saw growth shoot up, a large part of this was due to a statistical effect rather than growth in actual output. On the other hand, fuel-related sectors contracted again"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/business/Economy/infra-push-and-low-base-effect-pushes-core-sector-growth-to-series-high-in-october-2026/article71724481.ece"
+  ]
  },
  {
   "id": "2a924394ba",
   "cat": "Economy",
   "title": "Coal auction rounds attract 85 bids; 20 first-time players enter sector",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/business/Economy/coal-auction-rounds-attract-85-bids-20-first-time-players-enter-sector/article71725209.ece",
+  "date": "2026-11-21",
   "points": [
    "The 16th round of commercial mine auctions put forth 25 blocks, comprising 21 fully explored and four partially explored mines."
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/business/Economy/coal-auction-rounds-attract-85-bids-20-first-time-players-enter-sector/article71725209.ece"
+  ]
  },
  {
   "id": "e36e6d1ddf",
   "cat": "Economy",
   "title": "CEA flags need to align capital markets with India’s development priorities",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/business/markets/cea-flags-need-to-align-capital-markets-with-indias-development-priorities/article71725057.ece",
+  "date": "2026-11-21",
   "points": [
    "Equity market capitalisation stood at around 130% of GDP, while the corporate bond market accounted for only about 16%."
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/business/markets/cea-flags-need-to-align-capital-markets-with-indias-development-priorities/article71725057.ece"
+  ]
  },
  {
   "id": "61f2bd72a1",
   "cat": "Economy",
   "title": "How AI could reshape global growth and productivity",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/business/Economy/how-ai-could-reshape-global-growth-and-productivity/article71717356.ece",
+  "date": "2026-11-21",
   "points": [
    "A key expected impact of AI is an unprecedented rise in labour productivity, as its success as a technological revolution is premised on such an increase; what remains to be seen is how pervasive its impact will be acros"
-  ],
+  ]
+ },
+ {
+  "id": "58c530b60e",
+  "cat": "Sci-Tech",
+  "title": "Over 1 crore HPV vaccines given to 14-year-old girls in nine months: Health Ministry",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/business/Economy/how-ai-could-reshape-global-growth-and-productivity/article71717356.ece"
+  "link": "https://www.thehindu.com/sci-tech/health/over-1-crore-hpv-vaccines-given-to-14-year-old-girls-in-nine-months-health-ministry/article71727507.ece",
+  "date": "2026-11-21",
+  "points": [
+   "Six States — Gujarat, Uttar Pradesh, Andhra Pradesh, Mizoram, Madhya Pradesh, and Bihar — have achieved 100% coverage of their identified target populations, the Ministry said"
+  ]
+ },
+ {
+  "id": "e993769413",
+  "cat": "Sci-Tech",
+  "title": "Pune startup develops atomic clock prototype amid growing export curbs on critical technologies",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sci-tech/technology/pune-startup-develops-atomic-clock-prototype-amid-growing-export-curbs-on-critical-technologies/article71727456.ece",
+  "date": "2026-11-21",
+  "points": [
+   "Atomic clocks are critical to satellite navigation, telecommunications, space missions and strategic systems, where highly precise and stable timekeeping is essential."
+  ]
  },
  {
   "id": "d184763e57",
   "cat": "Sci-Tech",
   "title": "‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales, Rockstar Games reports",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/entertainment/grand-theft-auto-vi-sets-record-with-379b-in-first-day-retail-sales-rockstar-games-reports/article71727468.ece",
+  "date": "2026-11-21",
   "points": [
    "‘GTA VI’ is the latest installment in the hyperviolent, open-world video game series that has skewered American culture with fictionalized versions of New York and Los Angeles"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/entertainment/grand-theft-auto-vi-sets-record-with-379b-in-first-day-retail-sales-rockstar-games-reports/article71727468.ece"
+  ]
  },
  {
   "id": "005fee49ea",
   "cat": "Sci-Tech",
   "title": "Earthshot Prize finalists offer climate solutions for Mumbai, from wildfire detection to coastal protection and heat resilience",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sci-tech/energy-and-environment/earthshot-prize-finalists-offer-climate-solutions-for-mumbai-from-wildfire-detection-to-coastal-protection-and-heat-resilience/article71727370.ece",
+  "date": "2026-11-21",
   "points": [
    "María Buhigas, Chief City Architect of Barcelona, said coastal cities such as Mumbai must reconsider traditional infrastructure-led approaches to protecting waterfronts against rising sea levels, intense rainfall and inc"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/sci-tech/energy-and-environment/earthshot-prize-finalists-offer-climate-solutions-for-mumbai-from-wildfire-detection-to-coastal-protection-and-heat-resilience/article71727370.ece"
+  ]
  },
  {
   "id": "72ca93d6de",
   "cat": "Sci-Tech",
   "title": "Nvidia's accounting is a focus of U.S. SEC investigation, sources say",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sci-tech/technology/nvidias-accounting-is-a-focus-of-us-sec-investigation-sources-say/article71727338.ece",
+  "date": "2026-11-21",
   "points": [
    "The SEC under U.S. President Donald Trump has pulled back ‌on enforcement, saying it will focus on bread-and-butter securities fraud"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/sci-tech/technology/nvidias-accounting-is-a-focus-of-us-sec-investigation-sources-say/article71727338.ece"
+  ]
  },
  {
-  "id": "9fc2ef4167",
-  "cat": "Sci-Tech",
-  "title": "Keralam girl develops kidney ailment after ‘using’ fairness cream promoted on social media",
+  "id": "ba863ac2b7",
+  "cat": "Sports",
+  "title": "Jaydev Unadkat calls for balanced IPL pitches, says bowlers need an equal role",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sport/cricket/jaydev-unadkat-calls-for-balanced-ipl-pitches-says-bowlers-need-an-equal-role/article71727583.ece",
+  "date": "2026-11-21",
   "points": [
-   "Nephrologist, who is treating the girl, said medical examinations detected dangerously high mercury levels in the 17-year-old’s body. Tests on the cream allegedly found mercury levels of 12,500 parts per million, far exc"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/news/national/kerala/keralam-girl-develops-kidney-ailment-after-using-face-cream-promoted-on-social-media/article71727299.ece"
- },
- {
-  "id": "063449eaf8",
-  "cat": "Sci-Tech",
-  "title": "At least 13 dead after consuming spurious liquor, over 300 hospitalised in Manipur",
-  "points": [
-   "Joint managing director of Shija Hospitals, Chetan K, told reporters that the patients admitted to the hospital reported symptoms of dizziness, stomach pain and other complications"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/news/national/manipur/liquor-tragedy-manipur-death-toll-updates/article71727251.ece"
- },
- {
-  "id": "dfc41b0d89",
-  "cat": "Sports",
-  "title": "Pat Cummins wins Cricket Australia's ‘unanimous support’ to remain Test captain",
-  "points": [
-   "Cummins has been under huge pressure since Usman Khawaja claimed the whole team knew about the plot to alter the ball in a Test at Cape Town in 2018"
-  ],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/sport/cricket/pat-cummins-wins-cricket-australias-unanimous-support-to-remain-test-captain/article71727334.ece"
- },
- {
-  "id": "558d6422e0",
-  "cat": "Sports",
-  "title": "IND vs NZ, 1st Test: Rahul, Padikkal take India to 344/2 at tea",
-  "points": [],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/sport/cricket/india-vs-new-zealand-opening-test-match-day-3-updates/article71727104.ece"
- },
- {
-  "id": "b7b9160906",
-  "cat": "Sports",
-  "title": "Countdown: From Steinitz to Gukesh: an elite club of kings",
-  "points": [],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/sport/from-steinitz-to-gukesh-an-elite-club-of-kings/article71725499.ece"
- },
- {
-  "id": "5cf32094f9",
-  "cat": "Sports",
-  "title": "Squash: Velavan looks to end the year on a high",
-  "points": [],
-  "src": "Read full story",
-  "link": "https://www.thehindu.com/sport/velavan-looks-to-end-the-year-on-a-high/article71725920.ece"
+   "His 3-23, which included a hat-trick at the death, helped Saurashtra restrict Delhi to 152/9 and secure a five-wicket win at the Daly College ground"
+  ]
  },
  {
   "id": "01c6ff64ca",
   "cat": "Sports",
   "title": "Not a fan of the Ballon d’Or, but Kane deserves it: Schmelzer",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sport/football/marcel-schmelzer-interview-jurgen-klopp-borussia-dortmund-jurgen-klopp-haaland-joachim-low/article71725952.ece",
+  "date": "2026-11-21",
   "points": [
    "The former Borussia Dortmund full-back talks about learning under Klopp, defending against Robben and training with a young Haaland. He also explains why he believes teams, and not individuals, should win awards"
-  ],
+  ]
+ },
+ {
+  "id": "558d6422e0",
+  "cat": "Sports",
+  "title": "IND vs NZ, 1st Test: India end Day 3 on 486/4, lead by 118",
   "src": "Read full story",
-  "link": "https://www.thehindu.com/sport/football/marcel-schmelzer-interview-jurgen-klopp-borussia-dortmund-jurgen-klopp-haaland-joachim-low/article71725952.ece"
+  "link": "https://www.thehindu.com/sport/cricket/india-vs-new-zealand-opening-test-match-day-3-updates/article71727104.ece",
+  "date": "2026-11-21",
+  "points": [
+   "India amassed 327 runs in 86 overs to finish the third day at 486/4. That gave it a lead of 118 runs, with two days remaining"
+  ]
+ },
+ {
+  "id": "d342776451",
+  "cat": "Sports",
+  "title": "Perfect week caps Mirra Andreeva’s star-making year",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sport/tennis/mirra-andreeva-wta-finals-triumph-star-making-year-2026-form-titles/article71725927.ece",
+  "date": "2026-11-21",
+  "points": [
+   "The 19-year-old demolished the field at the WTA Finals in Indian Wells. The dominant performance against the world’s best, ending a season in which she won her first Major title, suggests she is growing into a player who"
+  ]
+ },
+ {
+  "id": "dfc41b0d89",
+  "cat": "Sports",
+  "title": "Pat Cummins wins Cricket Australia's ‘unanimous support’ to remain Test captain",
+  "src": "Read full story",
+  "link": "https://www.thehindu.com/sport/cricket/pat-cummins-wins-cricket-australias-unanimous-support-to-remain-test-captain/article71727334.ece",
+  "date": "2026-11-21",
+  "points": [
+   "Cummins has been under huge pressure since Usman Khawaja claimed the whole team knew about the plot to alter the ball in a Test at Cape Town in 2018"
+  ]
  },
  {
   "id": "9e01603ca7",
   "cat": "Defence",
   "title": "India's Defence Strength Powering National Security through Self-Reliance - pib.gov.in",
+  "src": "Read full story",
+  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pSFAtcXlILUJRaHdoSUwtVloydmVja21qQ3FlYVgzV3lrWHNYMjhYcjFtcEg0VTJRS3ZnTkt0c0g2cnRmTS1BR09RWWdOTTJ4dWs4ZHJfU0JtMnVJS0kyb0tuVVplRUNLc3Z6MUh1TXFCWTJ2dTNV?oc=5",
+  "date": "2026-11-21",
   "points": [
    "India's Defence Strength Powering National Security through Self-Reliance  pib.gov.in"
-  ],
-  "src": "Read full story",
-  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pSFAtcXlILUJRaHdoSUwtVloydmVja21qQ3FlYVgzV3lrWHNYMjhYcjFtcEg0VTJRS3ZnTkt0c0g2cnRmTS1BR09RWWdOTTJ4dWs4ZHJfU0JtMnVJS0kyb0tuVVplRUNLc3Z6MUh1TXFCWTJ2dTNV?oc=5"
+  ]
  },
  {
   "id": "1db53fee57",
   "cat": "Defence",
   "title": "Defence Minister Rajnath Singh clears proposals worth over two lakh crore to augment defence capabilities - News On AIR",
+  "src": "Read full story",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVdNQzNUNVRrUl9lc0Zab1FmTzJjTVBaYkVFNF9nU2g5VXhyZFRYckx6dmFsZlJFT0RyX0FWbVA4Z3o3ZFdnZ2w2Z3o3elF0VFNuNC1hMnVxNjdYdGhVMHZkcThXZENvWHJ4THpoVEtpY3YtVFlkcll3d2RQdDg0eHVJbWpSMk53VGVNUDRIcG5kcE9CdkljMmJMSWphanFpZkFDNldpb2l2bUFsczVFa2poLUlMOFV0NzZCdzRuclhIaWNGbUZuSUNxUQ?oc=5",
+  "date": "2026-11-21",
   "points": [
    "Defence Minister Rajnath Singh clears proposals worth over two lakh crore to augment defence capabilities  News On AIR"
-  ],
-  "src": "Read full story",
-  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVdNQzNUNVRrUl9lc0Zab1FmTzJjTVBaYkVFNF9nU2g5VXhyZFRYckx6dmFsZlJFT0RyX0FWbVA4Z3o3ZFdnZ2w2Z3o3elF0VFNuNC1hMnVxNjdYdGhVMHZkcThXZENvWHJ4THpoVEtpY3YtVFlkcll3d2RQdDg0eHVJbWpSMk53VGVNUDRIcG5kcE9CdkljMmJMSWphanFpZkFDNldpb2l2bUFsczVFa2poLUlMOFV0NzZCdzRuclhIaWNGbUZuSUNxUQ?oc=5"
+  ]
  },
  {
   "id": "00e404fe35",
   "cat": "Defence",
   "title": "India-France defence cooperation deepens with technology transfer and joint production - DD News",
+  "src": "Read full story",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2RzR2RXSjl5LWpPZW9YbW05NHRDWmJaTEJtZ2p6dTZUd3hEeVkxQ25QS1dGNHVWQllIWXBqMW5LQ2tFaU5HSkREZUNfYVN0alpnQ2ZLc0dEcWtaMTFsTTN4OEdrbWpjTEV3Vjg5NjhlaXBaV3NwTzU2YjBxSVc3eXNRU2FqOW5wR0JvblBDVzE5cFNoMXJrY05EQW1sQ3pNVXBLZ3NHRmxCUVZZcld5YUpR?oc=5",
+  "date": "2026-11-21",
   "points": [
    "India-France defence cooperation deepens with technology transfer and joint production  DD News"
-  ],
-  "src": "Read full story",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2RzR2RXSjl5LWpPZW9YbW05NHRDWmJaTEJtZ2p6dTZUd3hEeVkxQ25QS1dGNHVWQllIWXBqMW5LQ2tFaU5HSkREZUNfYVN0alpnQ2ZLc0dEcWtaMTFsTTN4OEdrbWpjTEV3Vjg5NjhlaXBaV3NwTzU2YjBxSVc3eXNRU2FqOW5wR0JvblBDVzE5cFNoMXJrY05EQW1sQ3pNVXBLZ3NHRmxCUVZZcld5YUpR?oc=5"
+  ]
  },
  {
-  "id": "4476813399",
+  "id": "fd0e95e3be",
   "cat": "Defence",
-  "title": "India’s Defence Startups Bet on Owning the Technology - Raksha Anirveda",
-  "points": [
-   "India’s Defence Startups Bet on Owning the Technology  Raksha Anirveda"
-  ],
+  "title": "Indian Navy Gets New Indigenous Diving Support Craft Equipped For Underwater Inspection, Salvage And Coastal Operations - Swarajya",
   "src": "Read full story",
-  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd2VjMG9CVmR6QTU5N2dBdC10MXlwNHJPNHdXZ1ZyUTBZUGNncEd5TGd6OWhTRHpobWxBZGo3eFpTZ01JSjlkWjVkM1BmWmNoT3pWdkNlZUVMR3VaRGNTeHZOV0VXR1h4eE9YaS16VGIxVzZxSFNJUWRKdXRzcGpSMnVCOW1vTy0w?oc=5"
+  "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTm5JTzl4Vm01S2o1bGw2R2R0bWxBTXA4NXEyeTN0SHNzeWJpQk1GWDA1M3FsYk40N2YxNzhxczlQaXc5TVVoVU5RNXg4ckdDcXRqWjFBR3VqZk5QWFdMUXF6S1h0bFU3SmgwQU0xOGJJN0RvSzdmSTFVcWppbVRIMnVWWFl0TDltX0ZKMVNpakFiN0xMX3Zsc29xQVR1Rmt2OTNSajZxamlMcVAxLUhPVFNpQUlGV1d1VGMzZWdhcWc1ekVlQ3JJampkbmtzQzRUNnpBWUhsZUhTRWswdWRmak03XzfSAfQBQVVfeXFMTmkxWVlremtwWG1sckZ6RGh4QXBiU2QtNFNranhRWjlyLTRzMi10THZwdmhpa2J0ZnM4aHVVRWU3RDM5LXJxdjVHLUdQTkYtMnRZWGVBQXh6dFpMcEdEdzhRSUFqdk9FSXlFWDlhdHhwNnZpb1AyRzBIUE9oQlFZMk1ZRHQ4VnlxUDljbzU1WHdIb1NpcTUyOEZidHVlbEtxdVZKV0swRVNzM0FBakZxLWt5bkFFUXhaMTUycy1kYXRKQWF5WFpSc0trZ0ZvalU1QVJFdmRKemRIYmd3ZDJqU1lIWFEyVEZLaWFULWdzd2hlNHJCNQ?oc=5",
+  "date": "2026-11-21",
+  "points": [
+   "Indian Navy Gets New Indigenous Diving Support Craft Equipped For Underwater Inspection, Salvage And Coastal Operations  Swarajya"
+  ]
  },
  {
-  "id": "57284459ce",
+  "id": "5c84d662da",
   "cat": "Defence",
-  "title": "Meet Sumira Tiwari, who dreams of flying the Rafale and secured 11th rank in the NDA; one of only two wom - The Times of India",
-  "points": [
-   "Meet Sumira Tiwari, who dreams of flying the Rafale and secured 11th rank in the NDA; one of only two wom  The Times of India"
-  ],
+  "title": "Indian Navy Receives Indigenous Diving Support Craft DSC A21 in Mumbai - SSBCrack",
   "src": "Read full story",
-  "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQSEZUU3k5V0JvVHBiMzlLYkJNQUVNV3MzVGxlWTlfN0I0ck9YaXRpNDZ3STR0V3JNY0JKcXNpeUtLQzNnSDZhektTMDdVeHNTZXhnZVFjek9FMHhNM0VXRk5seVhIR1FIVU9lbllfNmtFczJYOEdvcWFxYlA2Nm5LdV9lSGRhSWNyNWZFMFg0WlpQRGR4a2hYMk5MbDNqb3NXUGZJWG9DMEE5aWJTbjVNQWxyNG5nVjNPU3Zmcm9JRnV3TkptUFpMbXI5VE5OU1dqUjdNTzRBUTdnakpCY2lvSlpJZTFEQ0pvWjZTTDkxd19VQWpnUWhYcUhBQjJYM3NTR3RiS0liLVpfU3pUSUpMbk5xMEVDalhGcHhfSF9jQkJ3bHk3bjdFNTVwYzBvQ0hPVHo2b3E4akhpcmtqZUg5cE1IVFN4MHhOc0hmMFJWNUNmb0dUZDlUbVM0dFBJU29tV3JURS16M2tLNUxkQVVkcVVEWE56bDhnYzZMRGp2dHpEYzhXQllKVGRhdW5tZ2ZrRDlMdFV6MTZucmZDeWhTcdIBpgNBVV95cUxNb0NIUVVVdFJWODBKWW5lcEx1R216M3ptb2dvUEFqeVVQdHVEZVJqTzBaN0VQWk5ZMnN4YjUxSnNMajJMeG03MGJMSGJUS01TTkdsUEdvWmh5UDVSbVpKd0NSaDdHck1hOXkzMkgtWFdkdi1MOWVKVHFmWmhHYTM0amJ0YzBRNUdOcDg0aDNaSDJiN1dTWGFkU2MtcUZDUEUyX1VfSjY0akptQ1d6R1NyNkNIZjM1eFBTNUVDYnpoUkpLRmtOWVY4RG9CUmM5OUZrcjg0dlh4dy1DLTA5OFVTM1czbHNQUklNelJzb1ZoZ0syR2JxcmU0c0RjaTNVQWdTS0JTZVBFNE9xcmcySTNqVVVjbEtRRmtlS3RYcnliNzE2M3VJU1ZYTHBGTDJqTm05aDhVcFh2dkZnalNYTDg1U2FSMWJXMFN2SkMzaVlVcUNfZ0dNUVlERVFTMU40WmhyVmhCOE92eWNCSXRXV2tVQXYxd09vOTV3TUhfQlpRMmFqeXNPcDkyeEpwdTFoV2otWlkwME5fa0NuSkZHS2VOUVg0T1gwdw?oc=5"
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHJybmp5MGpuMTd0dnl6bEl5Qy1UcUZhUHQ4ckd0cFJOWk1MM2ZIUnNTcFJWRXhsckpKMC1fY09lbnEtaHJRVlltNG9NQzNMUEprN0Y1MW9KYVNQM0xaX080WUJPY3ZGelNkZlMyQXpmTVMyRjZjS3ZucHRucjMzdzVlYlJlMERGNDN0dDdJU3p3N0hwVDFHZlVvRUlJSnB5U1pqS004enQ1bGlW?oc=5",
+  "date": "2026-11-21",
+  "points": [
+   "Indian Navy Receives Indigenous Diving Support Craft DSC A21 in Mumbai  SSBCrack"
+  ]
  }
 ]
