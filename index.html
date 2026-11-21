@@ -5,33 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AFCAT Daily Current Affairs</title>
 <style>
-:root{--bg:#f6f7f4;--card:#ffffff;--text:#1d2420;--muted:#5d6a62;--accent:#1f6f4a;--line:#dfe4de;--chip:#e7efe9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1b231f;--text:#e8eee9;--muted:#9bab9f;--accent:#5fcf9b;--line:#2a352f;--chip:#24312a;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#121815;--card:#1b231f;--text:#e8eee9;--muted:#9bab9f;--accent:#5fcf9b;--line:#2a352f;--chip:#24312a;color-scheme:dark}
+:root{--bg:#f6f7f4;--card:#ffffff;--text:#1d2420;--muted:#5d6a62;--accent:#1f6f4a;--line:#dfe4de;--chip:#e7efe9;--good:#d7f0e0;--bad:#f7dcdc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1b231f;--text:#e8eee9;--muted:#9bab9f;--accent:#5fcf9b;--line:#2a352f;--chip:#24312a;--good:#1f4a33;--bad:#5a2a2a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121815;--card:#1b231f;--text:#e8eee9;--muted:#9bab9f;--accent:#5fcf9b;--line:#2a352f;--chip:#24312a;--good:#1f4a33;--bad:#5a2a2a;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .wrap{max-width:640px;margin:0 auto;padding:16px}
 h1{font-size:22px;margin:0}
 .date{color:var(--muted);font-size:14px;margin:2px 0 12px}
-.note{background:var(--chip);border-radius:10px;padding:8px 12px;font-size:13px;color:var(--muted);margin-bottom:12px}
 .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin:6px 0 4px}
 .bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
 .prog{font-size:13px;color:var(--muted);margin-bottom:12px}
-.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:8px}
+.tabs,.mode{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:8px}
+button{font:inherit}
 .tabs button,.mode button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);padding:7px 14px;border-radius:999px;font-size:14px;cursor:pointer}
 .tabs button.on,.mode button.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
-.mode{display:flex;gap:8px;margin-bottom:12px}
+select{width:100%;padding:9px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text);margin-bottom:12px;font-size:15px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
 .card.done{opacity:.6}
 .tag{font-size:12px;color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 .card h2{font-size:17px;margin:4px 0 6px}
 .card ul{margin:0 0 10px;padding-left:20px}
 .card li{margin-bottom:3px}
-.src{font-size:12px;color:var(--muted)}
-.act{display:flex;gap:8px;margin-top:10px}
+.rd{display:inline-block;background:var(--accent);color:var(--bg);text-decoration:none;padding:7px 14px;border-radius:8px;font-size:14px;font-weight:600}
+.act{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .act button{border:1px solid var(--line);background:transparent;color:var(--text);padding:6px 12px;border-radius:8px;font-size:13px;cursor:pointer}
 .act button.on{border-color:var(--accent);color:var(--accent)}
+.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:transparent;color:var(--text);padding:10px 12px;border-radius:10px;margin-top:8px;cursor:pointer}
+.opt.good{background:var(--good);border-color:var(--accent)}
+.opt.bad{background:var(--bad)}
+.why{color:var(--muted);font-size:14px;margin:10px 0 0}
 .empty{text-align:center;color:var(--muted);padding:32px 0}
 </style>
 </head>
@@ -39,61 +43,82 @@ h1{font-size:22px;margin:0}
 <div class="wrap">
   <h1>AFCAT Daily Current Affairs</h1>
   <div class="date" id="date"></div>
-  <div class="note">Sample content for the layout. Real daily news will replace it once the news backend is connected.</div>
-  <div class="bar"><i id="fill"></i></div>
-  <div class="prog" id="prog"></div>
-  <div class="mode">
-    <button id="m-today" class="on">Today</button>
-    <button id="m-saved">Saved</button>
-  </div>
-  <div class="tabs" id="tabs"></div>
+  <div class="mode" id="views"></div>
+  <div id="top"></div>
   <div id="list"></div>
 </div>
 <script>
-var DATA=[
-{id:"s1",cat:"National",title:"Sample: New government scheme announced",points:["What: a placeholder scheme for layout testing","Who: the ministry in charge goes here","Why it matters: short exam-style reason goes here"],src:"Sample source"},
-{id:"s2",cat:"National",title:"Sample: State election dates declared",points:["Which state and how many phases","Key authority: Election Commission of India"],src:"Sample source"},
-{id:"s3",cat:"International",title:"Sample: Summit held between two countries",points:["Countries and city of the summit","Main agreement signed","Link to India, if any"],src:"Sample source"},
-{id:"s4",cat:"Defence",title:"Sample: Joint military exercise begins",points:["Exercise name and partner country","Venue and duration","Services involved: Army, Navy or Air Force"],src:"Sample source"},
-{id:"s5",cat:"Defence",title:"Sample: New aircraft inducted by the Air Force",points:["Aircraft type and role","Squadron or base","Made in India or imported"],src:"Sample source"},
-{id:"s6",cat:"Economy",title:"Sample: RBI keeps policy rate unchanged",points:["Repo rate figure goes here","Reason given by the committee"],src:"Sample source"},
-{id:"s7",cat:"Sci-Tech",title:"Sample: Satellite launched by ISRO",points:["Mission name and purpose","Launch vehicle and site"],src:"Sample source"},
-{id:"s8",cat:"Sports",title:"Sample: Indian athlete wins a medal",points:["Athlete, event and medal","Tournament name and venue"],src:"Sample source"}
-];
 var CATS=["All","National","International","Defence","Economy","Sci-Tech","Sports"];
-var st={cat:"All",mode:"today",saved:{},read:{}};
+var st={view:"today",cat:"All",data:[],day:[],dayName:"",arch:[],saved:{},read:{},msg:"",quiz:"",qs:[],qi:0,score:0,ans:null};
+var ALL={};
 var KEY="afcat-"+new Date().toISOString().slice(0,10);
-try{var s=JSON.parse(localStorage.getItem("afcat-saved")||"{}");st.saved=s}catch(e){}
-try{var r=JSON.parse(localStorage.getItem(KEY)||"{}");st.read=r}catch(e){}
-function save(){try{localStorage.setItem("afcat-saved",JSON.stringify(st.saved));localStorage.setItem(KEY,JSON.stringify(st.read))}catch(e){}}
-function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+try{st.saved=JSON.parse(localStorage.getItem("afcat-saved2")||"{}")}catch(e){}
+try{st.read=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+function persist(){try{localStorage.setItem("afcat-saved2",JSON.stringify(st.saved));localStorage.setItem(KEY,JSON.stringify(st.read))}catch(e){}}
+function esc(t){return String(t==null?"":t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function getJSON(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
+function reg(a){a.forEach(function(d){ALL[d.id]=d})}
 document.getElementById("date").textContent=new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+
+function card(d){
+  var pts=d.points&&d.points.length?"<ul>"+d.points.map(function(p){return"<li>"+esc(p)+"</li>"}).join("")+"</ul>":"";
+  var link=d.link?'<a class="rd" href="'+esc(d.link)+'" target="_blank" rel="noopener">Read full story ↗</a>':"";
+  return '<div class="card'+(st.read[d.id]?" done":"")+'"><div class="tag">'+esc(d.cat)+(d.date?" · "+esc(d.date):"")+'</div><h2>'+esc(d.title)+'</h2>'+pts+link+
+  '<div class="act"><button data-r="'+d.id+'" class="'+(st.read[d.id]?"on":"")+'">'+(st.read[d.id]?"Read ✓":"Mark as read")+'</button><button data-s="'+d.id+'" class="'+(st.saved[d.id]?"on":"")+'">'+(st.saved[d.id]?"Saved ★":"Save ☆")+'</button></div></div>';
+}
+function quizHtml(){
+  var h='<div class="mode">'+["daily","weekly","monthly"].map(function(n){return'<button data-q="'+n+'" class="'+(st.quiz===n?"on":"")+'">'+n[0].toUpperCase()+n.slice(1)+' quiz</button>'}).join("")+'</div>';
+  if(!st.quiz)return h+'<div class="empty">Pick a quiz to start.</div>';
+  if(st.quiz==="err")return h+'<div class="empty">This quiz is not ready yet. Quizzes are made after the daily update.</div>';
+  var Q=st.qs;
+  if(st.qi>=Q.length)return h+'<div class="card"><h2>Score: '+st.score+' / '+Q.length+'</h2><div class="act"><button data-q="'+st.quiz+'">Try again</button></div></div>';
+  var q=Q[st.qi];
+  h+='<div class="card"><div class="tag">Question '+(st.qi+1)+' of '+Q.length+'</div><h2>'+esc(q.q)+'</h2>';
+  q.options.forEach(function(o,i){
+    var c="";if(st.ans!==null){if(i===q.answer)c=" good";else if(i===st.ans)c=" bad"}
+    h+='<button class="opt'+c+'" data-o="'+i+'">'+esc(o)+'</button>';
+  });
+  if(st.ans!==null)h+='<p class="why">'+esc(q.why||"")+'</p><div class="act"><button data-next="1">'+(st.qi+1<Q.length?"Next":"See score")+'</button></div>';
+  return h+'</div>';
+}
 function render(){
-  var tabs=document.getElementById("tabs");
-  tabs.innerHTML=CATS.map(function(c){return '<button data-c="'+c+'" class="'+(c===st.cat?"on":"")+'">'+c+'</button>'}).join("");
-  document.getElementById("m-today").className=st.mode==="today"?"on":"";
-  document.getElementById("m-saved").className=st.mode==="saved"?"on":"";
-  var items=DATA.filter(function(d){return (st.cat==="All"||d.cat===st.cat)&&(st.mode==="today"||st.saved[d.id])});
-  document.getElementById("list").innerHTML=items.length?items.map(function(d){
-    return '<div class="card'+(st.read[d.id]?" done":"")+'"><div class="tag">'+esc(d.cat)+'</div><h2>'+esc(d.title)+'</h2><ul>'+d.points.map(function(p){return "<li>"+esc(p)+"</li>"}).join("")+'</ul><div class="src">'+esc(d.src)+'</div><div class="act"><button data-r="'+d.id+'" class="'+(st.read[d.id]?"on":"")+'">'+(st.read[d.id]?"Read ✓":"Mark as read")+'</button><button data-s="'+d.id+'" class="'+(st.saved[d.id]?"on":"")+'">'+(st.saved[d.id]?"Saved ★":"Save ☆")+'</button></div></div>'
-  }).join(""):'<div class="empty">Nothing here yet.</div>';
-  var n=Object.keys(st.read).filter(function(k){return DATA.some(function(d){return d.id===k})}).length;
-  document.getElementById("fill").style.width=(DATA.length?n/DATA.length*100:0)+"%";
-  document.getElementById("prog").textContent=n+" of "+DATA.length+" stories read today";
+  document.getElementById("views").innerHTML=[["today","Today"],["archive","Archive"],["saved","Saved"],["quiz","Quiz"]].map(function(v){return'<button data-v="'+v[0]+'" class="'+(st.view===v[0]?"on":"")+'">'+v[1]+'</button>'}).join("");
+  var top=document.getElementById("top"),list=document.getElementById("list");
+  if(st.view==="quiz"){top.innerHTML="";list.innerHTML=quizHtml();return}
+  var src=st.view==="today"?st.data:st.view==="archive"?st.day:Object.keys(st.saved).map(function(k){return st.saved[k]});
+  var t="";
+  if(st.view==="today"){
+    var n=st.data.filter(function(d){return st.read[d.id]}).length;
+    t+='<div class="bar"><i style="width:'+(st.data.length?n/st.data.length*100:0)+'%"></i></div><div class="prog">'+n+" of "+st.data.length+" stories read today</div>";
+  }
+  if(st.view==="archive"){
+    t+='<select id="pick"><option value="">Choose a date…</option>'+st.arch.map(function(d){return'<option value="'+d+'"'+(d===st.dayName?" selected":"")+'>'+d+'</option>'}).join("")+'</select>';
+  }
+  t+='<div class="tabs">'+CATS.map(function(c){return'<button data-c="'+c+'" class="'+(c===st.cat?"on":"")+'">'+c+'</button>'}).join("")+'</div>';
+  top.innerHTML=t;
+  var items=src.filter(function(d){return st.cat==="All"||d.cat===st.cat});
+  list.innerHTML=items.length?items.map(card).join(""):'<div class="empty">'+esc(st.msg||(st.view==="archive"?"Choose a date to see that day’s news.":"Nothing here yet."))+'</div>';
 }
 document.addEventListener("click",function(e){
-  var b=e.target.closest("button");if(!b)return;
-  if(b.dataset.c){st.cat=b.dataset.c}
-  else if(b.dataset.r){if(st.read[b.dataset.r])delete st.read[b.dataset.r];else st.read[b.dataset.r]=1;save()}
-  else if(b.dataset.s){if(st.saved[b.dataset.s])delete st.saved[b.dataset.s];else st.saved[b.dataset.s]=1;save()}
-  else if(b.id==="m-today"){st.mode="today"}
-  else if(b.id==="m-saved"){st.mode="saved"}
+  var b=e.target.closest("button");if(!b)return;var d=b.dataset;
+  if(d.v){st.view=d.v;st.cat="All"}
+  else if(d.c){st.cat=d.c}
+  else if(d.r){if(st.read[d.r])delete st.read[d.r];else st.read[d.r]=1;persist()}
+  else if(d.s){if(st.saved[d.s])delete st.saved[d.s];else if(ALL[d.s])st.saved[d.s]=ALL[d.s];persist()}
+  else if(d.q){var n=d.q;getJSON("quiz/"+n+".json").then(function(qs){st.qs=qs;st.quiz=n;st.qi=0;st.score=0;st.ans=null;render()}).catch(function(){st.quiz="err";render()});return}
+  else if(d.o!==undefined){if(st.ans===null){st.ans=+d.o;if(st.ans===st.qs[st.qi].answer)st.score++}}
+  else if(d.next){st.qi++;st.ans=null}
   render();
 });
+document.addEventListener("change",function(e){
+  if(e.target.id!=="pick")return;var v=e.target.value;st.dayName=v;
+  if(!v){st.day=[];render();return}
+  getJSON("archive/"+v+".json").then(function(a){st.day=a;reg(a);st.msg="";render()}).catch(function(){st.day=[];st.msg="Could not load that day.";render()});
+});
+Object.keys(st.saved).forEach(function(k){ALL[k]=st.saved[k]});
+getJSON("news.json").then(function(a){st.data=a;reg(a);render()}).catch(function(){st.msg="Could not load today’s news.";render()});
+getJSON("archive/index.json").then(function(a){st.arch=a;render()}).catch(function(){});
 render();
-fetch("news.json").then(function(r){return r.json()}).then(function(d){
-  if(d&&d.length){DATA=d;document.querySelector(".note").style.display="none";render()}
-}).catch(function(){});
 </script>
 </body>
 </html>

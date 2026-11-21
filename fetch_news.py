@@ -1,8 +1,9 @@
-"""Fetches today's news, picks AFCAT-relevant stories, writes news.json.
+"""Fetches today's news, saves it to news.json AND to archive/<date>.json,
+and (with an API key) makes daily, weekly and monthly quizzes in quiz/.
 Run daily:  python fetch_news.py
-Optional:   pip install anthropic   and set ANTHROPIC_API_KEY for short bullet summaries.
+Needs for summaries + quizzes:  pip install anthropic  and ANTHROPIC_API_KEY set.
 """
-import os, re, json, hashlib, html, urllib.request
+import os, re, json, random, hashlib, html, datetime, urllib.request
 import xml.etree.ElementTree as ET
 
 FEEDS = {
@@ -14,6 +15,8 @@ FEEDS = {
     "Defence": ["https://news.google.com/rss/search?q=indian+army+OR+navy+OR+%22air+force%22+OR+defence+when:1d&hl=en-IN&gl=IN&ceid=IN:en"],
 }
 PER_CATEGORY = 5
+MODEL = "claude-sonnet-5-5"
+TODAY = datetime.date.today()
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -32,23 +35,61 @@ def items(url):
         if title and link:
             yield title, link, desc
 
-def bullets(title, desc):
+def ask(prompt, tokens):
     key = os.environ.get("ANTHROPIC_API_KEY")
-    if key:
-        try:
-            import anthropic
-            client = anthropic.Anthropic(api_key=key)
-            msg = client.messages.create(
-                model="claude-sonnet-5-5", max_tokens=300,
-                messages=[{"role": "user", "content":
-                    "Write 3 short bullet points in simple English, in your own words, "
-                    "that an AFCAT aspirant should remember from this news (who, what, where, numbers). "
-                    "One bullet per line, no symbols.\n\nHeadline: %s\nDetails: %s" % (title, desc)}])
-            lines = [l.strip(" -•*") for l in msg.content[0].text.splitlines() if l.strip()]
-            return lines[:3]
-        except Exception as e:
-            print("Summary failed:", e)
+    if not key:
+        return None
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=key)
+        msg = client.messages.create(model=MODEL, max_tokens=tokens,
+                                     messages=[{"role": "user", "content": prompt}])
+        return msg.content[0].text
+    except Exception as e:
+        print("AI call failed:", e)
+        return None
+
+def bullets(title, desc):
+    text = ask("Write 3 short bullet points in simple English, in your own words, "
+               "that an AFCAT aspirant should remember from this news (who, what, where, numbers). "
+               "One bullet per line, no symbols.\n\nHeadline: %s\nDetails: %s" % (title, desc), 300)
+    if text:
+        lines = [l.strip(" -•*") for l in text.splitlines() if l.strip()]
+        return lines[:3]
     return [desc[:220]] if desc else []
+
+def save(path, obj):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=1)
+
+def recent(days):
+    out = []
+    for i in range(days):
+        d = (TODAY - datetime.timedelta(days=i)).isoformat()
+        try:
+            with open("archive/%s.json" % d, encoding="utf-8") as f:
+                out += json.load(f)
+        except Exception:
+            pass
+    return out
+
+def make_quiz(name, days, n):
+    stories = recent(days)
+    if not stories or not os.environ.get("ANTHROPIC_API_KEY"):
+        print("Skipped %s quiz (no stories or no API key)" % name)
+        return
+    stories = random.sample(stories, min(len(stories), 120))
+    text = "\n".join("- %s. %s" % (s["title"], " ".join(s.get("points", [])[:1])) for s in stories)[:15000]
+    reply = ask("Make %d multiple-choice questions for AFCAT current affairs from these news items. "
+                "Use simple English and your own words. Reply with JSON only: a list of objects with keys "
+                "q, options (4 strings), answer (index 0 to 3), why (one short line).\n\n%s" % (n, text), 4000)
+    try:
+        quiz = json.loads(re.search(r"\[.*\]", reply, re.S).group(0))
+        save("quiz/%s.json" % name, quiz)
+        print("Saved", len(quiz), name, "questions")
+    except Exception as e:
+        print("Quiz failed:", name, e)
 
 def main():
     out, seen = [], set()
@@ -60,14 +101,20 @@ def main():
                     continue
                 seen.add(link)
                 count += 1
-                out.append({
-                    "id": hashlib.md5(link.encode()).hexdigest()[:10],
-                    "cat": cat, "title": title,
-                    "points": bullets(title, desc),
-                    "src": "Read full story", "link": link,
-                })
-    with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1)
-    print("Saved", len(out), "stories to news.json")
+                out.append({"id": hashlib.md5(link.encode()).hexdigest()[:10],
+                            "cat": cat, "title": title, "points": bullets(title, desc),
+                            "src": "Read full story", "link": link, "date": TODAY.isoformat()})
+    save("news.json", out)
+    save("archive/%s.json" % TODAY, out)
+    dates = sorted((f[:-5] for f in os.listdir("archive")
+                    if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", f)), reverse=True)
+    save("archive/index.json", dates)
+    print("Saved", len(out), "stories;", len(dates), "days in archive")
+    make_quiz("daily", 1, 5)
+    if TODAY.weekday() == 6 or not os.path.exists("quiz/weekly.json"):
+        make_quiz("weekly", 7, 10)
+    if TODAY.day == 1 or not os.path.exists("quiz/monthly.json"):
+        make_quiz("monthly", 30, 20)
 
-main()
+if __name__ == "__main__":
+    main()
