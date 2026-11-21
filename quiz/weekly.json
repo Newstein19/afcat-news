@@ -1,0 +1,112 @@
+[
+ {
+  "q": "Which country is India deepening its defence cooperation with through technology transfer and joint production?",
+  "options": [
+   "USA",
+   "Russia",
+   "France",
+   "Israel"
+  ],
+  "answer": 2,
+  "why": "India and France are strengthening their defense partnership through joint initiatives."
+ },
+ {
+  "q": "What is the name of the new indigenous vessel received by the Indian Navy for underwater operations?",
+  "options": [
+   "DSC A21",
+   "INS Vikrant",
+   "INS Arihant",
+   "Project 75"
+  ],
+  "answer": 0,
+  "why": "The Indian Navy recently received the indigenous Diving Support Craft DSC A21 in Mumbai."
+ },
+ {
+  "q": "What record did 'Grand Theft Auto VI' set in the gaming industry?",
+  "options": [
+   "Longest development time",
+   "Highest player count",
+   "Record first-day retail sales of $3.79 billion",
+   "Most awards won"
+  ],
+  "answer": 2,
+  "why": "Rockstar Games reported that GTA VI achieved a record $3.79 billion in first-day sales."
+ },
+ {
+  "q": "Who remains the Test captain of the Australian cricket team?",
+  "options": [
+   "Steve Smith",
+   "Pat Cummins",
+   "Mitchell Starc",
+   "David Warner"
+  ],
+  "answer": 1,
+  "why": "Cricket Australia confirmed that Pat Cummins will continue his role as Test captain."
+ },
+ {
+  "q": "What was the growth rate of India's core sector in October 2026?",
+  "options": [
+   "5.5%",
+   "8.2%",
+   "10.9%",
+   "12.4%"
+  ],
+  "answer": 2,
+  "why": "India's core sector growth reached a record high of 10.9% in October 2026."
+ },
+ {
+  "q": "In which city were the Quad, ASEAN-India, and East Asia Summits held?",
+  "options": [
+   "Jakarta",
+   "Manila",
+   "Bangkok",
+   "Singapore"
+  ],
+  "answer": 1,
+  "why": "Prime Minister Modi attended these key summits held in Manila."
+ },
+ {
+  "q": "Which startup developed an indigenous atomic clock prototype to reduce dependency on foreign technology?",
+  "options": [
+   "Bengaluru startup",
+   "Hyderabad startup",
+   "Pune startup",
+   "Delhi startup"
+  ],
+  "answer": 2,
+  "why": "A Pune-based startup successfully developed an atomic clock prototype amid export curbs."
+ },
+ {
+  "q": "What is the primary focus of the HPV vaccine initiative reported by the Health Ministry?",
+  "options": [
+   "Preventing heart disease",
+   "Preventing cervical cancer in girls",
+   "Reducing malaria cases",
+   "Tuberculosis awareness"
+  ],
+  "answer": 1,
+  "why": "The Health Ministry reported that over 1 crore HPV vaccines were administered to 14-year-old girls."
+ },
+ {
+  "q": "Which country's Climate Minister attended the SCO Civilisations Dialogue Forum in Delhi?",
+  "options": [
+   "China",
+   "Russia",
+   "Pakistan",
+   "Iran"
+  ],
+  "answer": 2,
+  "why": "The Climate Minister of Pakistan traveled to Delhi to participate in the SCO event."
+ },
+ {
+  "q": "What is the purpose of the new Defence Ministry proposal worth over two lakh crore?",
+  "options": [
+   "Space exploration",
+   "Augmenting defence capabilities",
+   "Infrastructure for schools",
+   "New rail networks"
+  ],
+  "answer": 1,
+  "why": "Defence Minister Rajnath Singh approved proposals to strengthen national defence capabilities."
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "q": "What is the primary purpose of the 'Systematic Withdrawal Plan' being considered by the EPFO?",
+  "options": [
+   "To provide pension advances to young workers",
+   "To offer a structured withdrawal method for retirees",
+   "To invest employee funds in the stock market",
+   "To tax interest earned on provident fund accounts"
+  ],
+  "answer": 1,
+  "why": "The EPFO is exploring a Systematic Withdrawal Plan specifically to benefit retirees."
+ },
+ {
+  "q": "Which organization recently received the indigenous 'Diving Support Craft' (DSC A21) in Mumbai?",
+  "options": [
+   "Indian Coast Guard",
+   "Indian Army",
+   "Indian Navy",
+   "Indian Air Force"
+  ],
+  "answer": 2,
+  "why": "The Indian Navy inducted the DSC A21 to enhance underwater inspection and salvage operations."
+ },
+ {
+  "q": "What is the significance of the recent core sector growth report for India in October 2026?",
+  "options": [
+   "It hit a record high of 10.9%",
+   "It declined due to inflation",
+   "It remained stagnant compared to the previous year",
+   "It reached an all-time low"
+  ],
+  "answer": 0,
+  "why": "Infrastructure push and base effects led to a series-high growth rate of 10.9%."
+ },
+ {
+  "q": "Which startup recently developed an indigenous atomic clock prototype to address export curbs?",
+  "options": [
+   "A Bengaluru-based startup",
+   "A Delhi-based startup",
+   "A Pune-based startup",
+   "A Hyderabad-based startup"
+  ],
+  "answer": 2,
+  "why": "A startup based in Pune developed the prototype to combat technology export restrictions."
+ },
+ {
+  "q": "Who represented Pakistan at the SCO Civilisations Dialogue Forum held in Delhi?",
+  "options": [
+   "The Prime Minister",
+   "The Climate Minister",
+   "The Foreign Secretary",
+   "The Minister of Defense"
+  ],
+  "answer": 1,
+  "why": "Pakistan's Climate Minister visited Delhi specifically to attend the SCO Civilisations Dialogue Forum."
+ }
+]
