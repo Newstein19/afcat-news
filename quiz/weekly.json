@@ -1,112 +1,112 @@
 [
  {
-  "q": "Which country is India deepening its defence cooperation with through technology transfer and joint production?",
+  "q": "Which country recently emerged as the third-largest arms exporter to Europe according to the Defence Secretary?",
   "options": [
-   "USA",
-   "Russia",
-   "France",
-   "Israel"
+   "Israel",
+   "India",
+   "South Korea",
+   "Japan"
   ],
-  "answer": 2,
-  "why": "India and France are strengthening their defense partnership through joint initiatives."
+  "answer": 1,
+  "why": "India has emerged as the third-largest arms exporter to Europe."
  },
  {
-  "q": "What is the name of the new indigenous vessel received by the Indian Navy for underwater operations?",
+  "q": "What is the name of the indigenously built diving support craft recently received by the Indian Navy in Mumbai?",
   "options": [
    "DSC A21",
    "INS Vikrant",
-   "INS Arihant",
-   "Project 75"
+   "INS Vagir",
+   "DSC Sagar"
   ],
   "answer": 0,
-  "why": "The Indian Navy recently received the indigenous Diving Support Craft DSC A21 in Mumbai."
+  "why": "The Indian Navy received the indigenously built diving support craft DSC A21."
  },
  {
-  "q": "What record did 'Grand Theft Auto VI' set in the gaming industry?",
+  "q": "Which game achieved a record $3.79 billion in first-day retail sales according to Rockstar Games?",
   "options": [
-   "Longest development time",
-   "Highest player count",
-   "Record first-day retail sales of $3.79 billion",
-   "Most awards won"
+   "Call of Duty: Modern Warfare III",
+   "Cyberpunk 2077",
+   "Grand Theft Auto VI",
+   "Red Dead Redemption 3"
   ],
   "answer": 2,
-  "why": "Rockstar Games reported that GTA VI achieved a record $3.79 billion in first-day sales."
+  "why": "Grand Theft Auto VI set a record with $3.79 billion in first-day retail sales."
  },
  {
-  "q": "Who remains the Test captain of the Australian cricket team?",
+  "q": "Who won the Las Vegas Grand Prix for the third time in four years?",
+  "options": [
+   "Lewis Hamilton",
+   "Charles Leclerc",
+   "Max Verstappen",
+   "Lando Norris"
+  ],
+  "answer": 2,
+  "why": "Max Verstappen won the Las Vegas Grand Prix for the third time in four years."
+ },
+ {
+  "q": "Which state recently gained national recognition for its progress in HIV/AIDS control?",
+  "options": [
+   "Kerala",
+   "Tamil Nadu",
+   "Andhra Pradesh",
+   "Maharashtra"
+  ],
+  "answer": 2,
+  "why": "Andhra Pradesh received national recognition for its HIV/AIDS control progress."
+ },
+ {
+  "q": "Who is confirmed by Cricket Australia to remain as the Test cricket captain with 'unanimous support'?",
   "options": [
    "Steve Smith",
+   "Travis Head",
    "Pat Cummins",
-   "Mitchell Starc",
-   "David Warner"
-  ],
-  "answer": 1,
-  "why": "Cricket Australia confirmed that Pat Cummins will continue his role as Test captain."
- },
- {
-  "q": "What was the growth rate of India's core sector in October 2026?",
-  "options": [
-   "5.5%",
-   "8.2%",
-   "10.9%",
-   "12.4%"
+   "Alex Carey"
   ],
   "answer": 2,
-  "why": "India's core sector growth reached a record high of 10.9% in October 2026."
+  "why": "Pat Cummins won Cricket Australia's unanimous support to remain Test captain."
  },
  {
-  "q": "In which city were the Quad, ASEAN-India, and East Asia Summits held?",
+  "q": "Which sector in India recorded a series-high growth of 10.9% in October 2026?",
   "options": [
-   "Jakarta",
-   "Manila",
-   "Bangkok",
-   "Singapore"
+   "Core sector",
+   "IT sector",
+   "Agricultural sector",
+   "Automobile sector"
+  ],
+  "answer": 0,
+  "why": "India's core sector growth reached a series-high of 10.9% in October 2026."
+ },
+ {
+  "q": "Who wrote a letter to the Chief Justice of India (CJI) to urgently appoint a successor for the Jharkhand HC Chief Justice?",
+  "options": [
+   "Governor of Jharkhand",
+   "Hemant Soren",
+   "Champai Soren",
+   "Speaker of Jharkhand Assembly"
   ],
   "answer": 1,
-  "why": "Prime Minister Modi attended these key summits held in Manila."
+  "why": "Jharkhand CM Hemant Soren wrote to the CJI regarding the High Court Chief Justice succession."
  },
  {
-  "q": "Which startup developed an indigenous atomic clock prototype to reduce dependency on foreign technology?",
+  "q": "Which Indian Army officer from Karkala was recently promoted to the rank of Major General?",
   "options": [
-   "Bengaluru startup",
-   "Hyderabad startup",
-   "Pune startup",
-   "Delhi startup"
+   "Sachidananda Prabhu",
+   "M.M. Naravane",
+   "Upendra Dwivedi",
+   "Anil Chauhan"
   ],
-  "answer": 2,
-  "why": "A Pune-based startup successfully developed an atomic clock prototype amid export curbs."
+  "answer": 0,
+  "why": "Sachidananda Prabhu from Karkala was promoted to Major General in the Indian Army."
  },
  {
-  "q": "What is the primary focus of the HPV vaccine initiative reported by the Health Ministry?",
+  "q": "Which country's climate minister arrived in Delhi to attend the SCO Civilisations Dialogue Forum?",
   "options": [
-   "Preventing heart disease",
-   "Preventing cervical cancer in girls",
-   "Reducing malaria cases",
-   "Tuberculosis awareness"
-  ],
-  "answer": 1,
-  "why": "The Health Ministry reported that over 1 crore HPV vaccines were administered to 14-year-old girls."
- },
- {
-  "q": "Which country's Climate Minister attended the SCO Civilisations Dialogue Forum in Delhi?",
-  "options": [
-   "China",
-   "Russia",
+   "Bangladesh",
    "Pakistan",
-   "Iran"
-  ],
-  "answer": 2,
-  "why": "The Climate Minister of Pakistan traveled to Delhi to participate in the SCO event."
- },
- {
-  "q": "What is the purpose of the new Defence Ministry proposal worth over two lakh crore?",
-  "options": [
-   "Space exploration",
-   "Augmenting defence capabilities",
-   "Infrastructure for schools",
-   "New rail networks"
+   "China",
+   "Afghanistan"
   ],
   "answer": 1,
-  "why": "Defence Minister Rajnath Singh approved proposals to strengthen national defence capabilities."
+  "why": "Pakistan's Climate Minister visited Delhi for the SCO Civilisations Dialogue Forum."
  }
 ]

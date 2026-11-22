@@ -1,57 +1,57 @@
 [
  {
-  "q": "What is the primary purpose of the 'Systematic Withdrawal Plan' being considered by the EPFO?",
+  "q": "Which organization recently proposed a Systematic Withdrawal Plan (SWP) for retirees?",
   "options": [
-   "To provide pension advances to young workers",
-   "To offer a structured withdrawal method for retirees",
-   "To invest employee funds in the stock market",
-   "To tax interest earned on provident fund accounts"
+   "RBI",
+   "EPFO",
+   "SEBI",
+   "LIC"
   ],
   "answer": 1,
-  "why": "The EPFO is exploring a Systematic Withdrawal Plan specifically to benefit retirees."
+  "why": "EPFO proposed a Systematic Withdrawal Plan for retirees."
  },
  {
-  "q": "Which organization recently received the indigenous 'Diving Support Craft' (DSC A21) in Mumbai?",
+  "q": "What position has India recently achieved regarding arms exports to Europe?",
   "options": [
-   "Indian Coast Guard",
-   "Indian Army",
-   "Indian Navy",
-   "Indian Air Force"
+   "Largest",
+   "Second-Largest",
+   "Third-Largest",
+   "Fourth-Largest"
   ],
   "answer": 2,
-  "why": "The Indian Navy inducted the DSC A21 to enhance underwater inspection and salvage operations."
+  "why": "India emerged as the third-largest arms exporter to Europe."
  },
  {
-  "q": "What is the significance of the recent core sector growth report for India in October 2026?",
+  "q": "Which water body recently experienced an unusual frequency of three cyclones in three weeks?",
   "options": [
-   "It hit a record high of 10.9%",
-   "It declined due to inflation",
-   "It remained stagnant compared to the previous year",
-   "It reached an all-time low"
+   "Arabian Sea",
+   "Bay of Bengal",
+   "Indian Ocean",
+   "South China Sea"
+  ],
+  "answer": 1,
+  "why": "The Bay of Bengal witnessed three cyclones in three weeks."
+ },
+ {
+  "q": "What is the name of the indigenously built diving support craft recently received by the Indian Navy in Mumbai?",
+  "options": [
+   "DSC A21",
+   "INS Vikrant",
+   "INS Vagir",
+   "DSC Karkala"
   ],
   "answer": 0,
-  "why": "Infrastructure push and base effects led to a series-high growth rate of 10.9%."
+  "why": "The Indian Navy received the indigenously built diving support craft DSC A21."
  },
  {
-  "q": "Which startup recently developed an indigenous atomic clock prototype to address export curbs?",
+  "q": "Who won the Las Vegas Grand Prix for the third time in four years?",
   "options": [
-   "A Bengaluru-based startup",
-   "A Delhi-based startup",
-   "A Pune-based startup",
-   "A Hyderabad-based startup"
+   "Lewis Hamilton",
+   "Charles Leclerc",
+   "Max Verstappen",
+   "Lando Norris"
   ],
   "answer": 2,
-  "why": "A startup based in Pune developed the prototype to combat technology export restrictions."
- },
- {
-  "q": "Who represented Pakistan at the SCO Civilisations Dialogue Forum held in Delhi?",
-  "options": [
-   "The Prime Minister",
-   "The Climate Minister",
-   "The Foreign Secretary",
-   "The Minister of Defense"
-  ],
-  "answer": 1,
-  "why": "Pakistan's Climate Minister visited Delhi specifically to attend the SCO Civilisations Dialogue Forum."
+  "why": "Max Verstappen won the Las Vegas Grand Prix for the third time in four years."
  }
 ]
