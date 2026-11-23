@@ -1,57 +1,57 @@
 [
  {
-  "q": "Which organization recently proposed a Systematic Withdrawal Plan (SWP) for retirees?",
+  "q": "Which country's envoy recently discussed deepening economic ties with India through startup cooperation, as per recent reports?",
   "options": [
-   "RBI",
-   "EPFO",
-   "SEBI",
-   "LIC"
-  ],
-  "answer": 1,
-  "why": "EPFO proposed a Systematic Withdrawal Plan for retirees."
- },
- {
-  "q": "What position has India recently achieved regarding arms exports to Europe?",
-  "options": [
-   "Largest",
-   "Second-Largest",
-   "Third-Largest",
-   "Fourth-Largest"
-  ],
-  "answer": 2,
-  "why": "India emerged as the third-largest arms exporter to Europe."
- },
- {
-  "q": "Which water body recently experienced an unusual frequency of three cyclones in three weeks?",
-  "options": [
-   "Arabian Sea",
-   "Bay of Bengal",
-   "Indian Ocean",
-   "South China Sea"
-  ],
-  "answer": 1,
-  "why": "The Bay of Bengal witnessed three cyclones in three weeks."
- },
- {
-  "q": "What is the name of the indigenously built diving support craft recently received by the Indian Navy in Mumbai?",
-  "options": [
-   "DSC A21",
-   "INS Vikrant",
-   "INS Vagir",
-   "DSC Karkala"
+   "Finland",
+   "Russia",
+   "Nepal",
+   "Sri Lanka"
   ],
   "answer": 0,
-  "why": "The Indian Navy received the indigenously built diving support craft DSC A21."
+  "why": "Finnish envoy Mikko Kivikoski emphasized startup cooperation to boost India-Finland economic ties."
  },
  {
-  "q": "Who won the Las Vegas Grand Prix for the third time in four years?",
+  "q": "Titagarh recently delivered which defense asset to the Indian Navy?",
   "options": [
-   "Lewis Hamilton",
-   "Charles Leclerc",
-   "Max Verstappen",
-   "Lando Norris"
+   "Aircraft Carrier",
+   "Diving Support Craft",
+   "Barak 1 Missile System",
+   "Sukhoi-30MKI Jet"
+  ],
+  "answer": 1,
+  "why": "Titagarh delivered the second diving support craft to the Indian Navy."
+ },
+ {
+  "q": "What is the name of the new web app launched in Kerala to report violations by private buses?",
+  "options": [
+   "BusCheck",
+   "Idi Vandi",
+   "Kerala Transit",
+   "Vahan App"
+  ],
+  "answer": 1,
+  "why": "Idi Vandi is the new web app used to report private bus violations in Kerala."
+ },
+ {
+  "q": "Which fighter jet of the Indian Air Force recently crashed in Assam?",
+  "options": [
+   "Mig-21",
+   "Tejas",
+   "Rafale",
+   "Sukhoi-30MKI"
+  ],
+  "answer": 3,
+  "why": "An Indian Air Force Sukhoi-30MKI fighter jet crashed in Assam."
+ },
+ {
+  "q": "Against which cricket team did Virat Kohli and Shubman Gill help India secure a record 317-run ODI win?",
+  "options": [
+   "Australia",
+   "Netherlands",
+   "Sri Lanka",
+   "Pakistan"
   ],
   "answer": 2,
-  "why": "Max Verstappen won the Las Vegas Grand Prix for the third time in four years."
+  "why": "India defeated Sri Lanka by a record 317 runs powered by Kohli and Gill."
  }
 ]
