@@ -1,57 +1,57 @@
 [
  {
-  "q": "Which country's envoy recently discussed deepening economic ties with India through startup cooperation, as per recent reports?",
+  "q": "The Indian Navy and Coast Guard are planning a ₹15,000-crore deal for 76 Utility Helicopters to replace which ageing fleet?",
   "options": [
-   "Finland",
-   "Russia",
-   "Nepal",
-   "Sri Lanka"
+   "Mi-17 and Kamov",
+   "Cheetah and Chetak",
+   "Chinook and Apache",
+   "Rudra and Dhruv"
+  ],
+  "answer": 1,
+  "why": "The ₹15,000-crore procurement deal aims to replace the ageing Cheetah and Chetak helicopters."
+ },
+ {
+  "q": "Which NASA spacecraft reached a distance of one light-day from Earth on November 18?",
+  "options": [
+   "Voyager 1",
+   "Voyager 2",
+   "New Horizons",
+   "Pioneer 10"
   ],
   "answer": 0,
-  "why": "Finnish envoy Mikko Kivikoski emphasized startup cooperation to boost India-Finland economic ties."
+  "why": "NASA's Voyager 1 spacecraft reached a distance of 1 light-day from Earth on November 18."
  },
  {
-  "q": "Titagarh recently delivered which defense asset to the Indian Navy?",
+  "q": "The 300-year-old historic Lavi Fair, which celebrates traditional Himalayan trade, is held in which place?",
   "options": [
-   "Aircraft Carrier",
-   "Diving Support Craft",
-   "Barak 1 Missile System",
-   "Sukhoi-30MKI Jet"
-  ],
-  "answer": 1,
-  "why": "Titagarh delivered the second diving support craft to the Indian Navy."
- },
- {
-  "q": "What is the name of the new web app launched in Kerala to report violations by private buses?",
-  "options": [
-   "BusCheck",
-   "Idi Vandi",
-   "Kerala Transit",
-   "Vahan App"
-  ],
-  "answer": 1,
-  "why": "Idi Vandi is the new web app used to report private bus violations in Kerala."
- },
- {
-  "q": "Which fighter jet of the Indian Air Force recently crashed in Assam?",
-  "options": [
-   "Mig-21",
-   "Tejas",
-   "Rafale",
-   "Sukhoi-30MKI"
-  ],
-  "answer": 3,
-  "why": "An Indian Air Force Sukhoi-30MKI fighter jet crashed in Assam."
- },
- {
-  "q": "Against which cricket team did Virat Kohli and Shubman Gill help India secure a record 317-run ODI win?",
-  "options": [
-   "Australia",
-   "Netherlands",
-   "Sri Lanka",
-   "Pakistan"
+   "Leh",
+   "Dehradun",
+   "Rampur",
+   "Srinagar"
   ],
   "answer": 2,
-  "why": "India defeated Sri Lanka by a record 317 runs powered by Kohli and Gill."
+  "why": "Rampur's Lavi Fair celebrates 300 years of traditional Himalayan trade."
+ },
+ {
+  "q": "Which three banks maintained their Domestic Systemically Important Bank (D-SIB) status according to the Reserve Bank of India?",
+  "options": [
+   "SBI, Punjab National Bank, Axis Bank",
+   "SBI, HDFC Bank, ICICI Bank",
+   "Bank of Baroda, HDFC Bank, Canara Bank",
+   "ICICI Bank, Axis Bank, Kotak Mahindra Bank"
+  ],
+  "answer": 1,
+  "why": "The RBI maintained the D-SIB status for SBI, HDFC Bank, and ICICI Bank."
+ },
+ {
+  "q": "Which sports organisation refused to review the ban on using saliva to polish balls?",
+  "options": [
+   "Board of Control for Cricket in India (BCCI)",
+   "International Cricket Council (ICC)",
+   "England and Wales Cricket Board (ECB)",
+   "Cricket Australia (CA)"
+  ],
+  "answer": 1,
+  "why": "The ICC stated it has no plans to review the saliva ban despite requests from players."
  }
 ]
