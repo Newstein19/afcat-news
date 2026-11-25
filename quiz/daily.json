@@ -1,57 +1,57 @@
 [
  {
-  "q": "The Indian Navy and Coast Guard are planning a ₹15,000-crore deal for 76 Utility Helicopters to replace which ageing fleet?",
+  "q": "What is the name of the joint military exercise conducted between India and Nepal?",
   "options": [
-   "Mi-17 and Kamov",
-   "Cheetah and Chetak",
-   "Chinook and Apache",
-   "Rudra and Dhruv"
+   "Yudh Abhyas",
+   "Surya Kiran",
+   "Sampriti",
+   "Mitra Shakti"
   ],
   "answer": 1,
-  "why": "The ₹15,000-crore procurement deal aims to replace the ageing Cheetah and Chetak helicopters."
+  "why": "'Surya Kiran' is the annual joint military exercise conducted between India and Nepal."
  },
  {
-  "q": "Which NASA spacecraft reached a distance of one light-day from Earth on November 18?",
+  "q": "Which three banks in India retained their Domestic Systemically Important Bank (D-SIB) status as per the Reserve Bank of India?",
   "options": [
-   "Voyager 1",
-   "Voyager 2",
-   "New Horizons",
-   "Pioneer 10"
+   "SBI, HDFC Bank, and ICICI Bank",
+   "Punjab National Bank, Bank of Baroda, and Canara Bank",
+   "Axis Bank, Kotak Mahindra Bank, and SBI",
+   "ICICI Bank, IDBI Bank, and HDFC Bank"
   ],
   "answer": 0,
-  "why": "NASA's Voyager 1 spacecraft reached a distance of 1 light-day from Earth on November 18."
+  "why": "RBI maintained the D-SIB status for SBI, HDFC Bank, and ICICI Bank."
  },
  {
-  "q": "The 300-year-old historic Lavi Fair, which celebrates traditional Himalayan trade, is held in which place?",
+  "q": "Which Indian state decided to provide rabies vaccination shots to frontline civic and high-risk workers?",
   "options": [
-   "Leh",
-   "Dehradun",
-   "Rampur",
-   "Srinagar"
+   "Kerala",
+   "Karnataka",
+   "Tamil Nadu",
+   "Telangana"
   ],
   "answer": 2,
-  "why": "Rampur's Lavi Fair celebrates 300 years of traditional Himalayan trade."
+  "why": "The Tamil Nadu government announced rabies shots for frontline civic and animal care workers in high-risk jobs."
  },
  {
-  "q": "Which three banks maintained their Domestic Systemically Important Bank (D-SIB) status according to the Reserve Bank of India?",
+  "q": "The Indian Army recently concluded the 13th edition of 'Operation DRISHTI' in Meerut. What was its main focus?",
   "options": [
-   "SBI, Punjab National Bank, Axis Bank",
-   "SBI, HDFC Bank, ICICI Bank",
-   "Bank of Baroda, HDFC Bank, Canara Bank",
-   "ICICI Bank, Axis Bank, Kotak Mahindra Bank"
+   "Performing free eye surgeries",
+   "Providing cyber security training",
+   "Conducting flood relief operations",
+   "Executing anti-terrorist drills"
   ],
-  "answer": 1,
-  "why": "The RBI maintained the D-SIB status for SBI, HDFC Bank, and ICICI Bank."
+  "answer": 0,
+  "why": "Operation DRISHTI was conducted by the Indian Army medical corps to perform 412 free eye surgeries."
  },
  {
-  "q": "Which sports organisation refused to review the ban on using saliva to polish balls?",
+  "q": "Which organization has promised to ensure dedicated space for pedestrians and road users in Hyderabad by 2050?",
   "options": [
-   "Board of Control for Cricket in India (BCCI)",
-   "International Cricket Council (ICC)",
-   "England and Wales Cricket Board (ECB)",
-   "Cricket Australia (CA)"
+   "Hyderabad Unified Metropolitan Transport Authority (HUMTA)",
+   "Telangana Urban Infrastructure Development Board",
+   "National Highways Authority of India",
+   "Greater Hyderabad Municipal Corporation"
   ],
-  "answer": 1,
-  "why": "The ICC stated it has no plans to review the saliva ban despite requests from players."
+  "answer": 0,
+  "why": "HUMTA announced long-term plans to allocate proper road space for pedestrians in Hyderabad by 2050."
  }
 ]
