@@ -1,57 +1,57 @@
 [
  {
-  "q": "What is the name of the joint military exercise conducted between India and Nepal?",
+  "q": "Which military exercise was recently hosted by the Indian Navy at the Maritime Warfare Centre in Kochi?",
   "options": [
-   "Yudh Abhyas",
    "Surya Kiran",
-   "Sampriti",
-   "Mitra Shakti"
+   "IMEX TTX 2026",
+   "Malabar",
+   "Varuna"
   ],
   "answer": 1,
-  "why": "'Surya Kiran' is the annual joint military exercise conducted between India and Nepal."
+  "why": "The Indian Navy hosted the IMEX TTX 2026 exercise in Kochi."
  },
  {
-  "q": "Which three banks in India retained their Domestic Systemically Important Bank (D-SIB) status as per the Reserve Bank of India?",
+  "q": "India has recently emerged as the ___ largest exporter of defence goods to Europe.",
   "options": [
-   "SBI, HDFC Bank, and ICICI Bank",
-   "Punjab National Bank, Bank of Baroda, and Canara Bank",
-   "Axis Bank, Kotak Mahindra Bank, and SBI",
-   "ICICI Bank, IDBI Bank, and HDFC Bank"
-  ],
-  "answer": 0,
-  "why": "RBI maintained the D-SIB status for SBI, HDFC Bank, and ICICI Bank."
- },
- {
-  "q": "Which Indian state decided to provide rabies vaccination shots to frontline civic and high-risk workers?",
-  "options": [
-   "Kerala",
-   "Karnataka",
-   "Tamil Nadu",
-   "Telangana"
+   "1st",
+   "2nd",
+   "3rd",
+   "4th"
   ],
   "answer": 2,
-  "why": "The Tamil Nadu government announced rabies shots for frontline civic and animal care workers in high-risk jobs."
+  "why": "India has emerged as the 3rd largest exporter of defence goods to Europe."
  },
  {
-  "q": "The Indian Army recently concluded the 13th edition of 'Operation DRISHTI' in Meerut. What was its main focus?",
+  "q": "Which Indian sportsperson recently became the first Indian to win the Crucible Cup in Snooker 900?",
   "options": [
-   "Performing free eye surgeries",
-   "Providing cyber security training",
-   "Conducting flood relief operations",
-   "Executing anti-terrorist drills"
+   "Pankaj Advani",
+   "Aditya Mehta",
+   "B. Aparajith",
+   "Sourav Kothari"
   ],
   "answer": 0,
-  "why": "Operation DRISHTI was conducted by the Indian Army medical corps to perform 412 free eye surgeries."
+  "why": "Pankaj Advani became the first Indian to win the Crucible Cup in Snooker 900."
  },
  {
-  "q": "Which organization has promised to ensure dedicated space for pedestrians and road users in Hyderabad by 2050?",
+  "q": "Apple is set to open its very first retail store in which Indian city in December?",
   "options": [
-   "Hyderabad Unified Metropolitan Transport Authority (HUMTA)",
-   "Telangana Urban Infrastructure Development Board",
-   "National Highways Authority of India",
-   "Greater Hyderabad Municipal Corporation"
+   "Bengaluru",
+   "Mumbai",
+   "Hyderabad",
+   "Chennai"
   ],
-  "answer": 0,
-  "why": "HUMTA announced long-term plans to allocate proper road space for pedestrians in Hyderabad by 2050."
+  "answer": 2,
+  "why": "Apple is scheduled to open its first store in Hyderabad on December 10."
+ },
+ {
+  "q": "The joint military exercise 'Surya Kiran' is conducted between India and which neighbouring country?",
+  "options": [
+   "Bhutan",
+   "Nepal",
+   "Sri Lanka",
+   "Bangladesh"
+  ],
+  "answer": 1,
+  "why": "India and Nepal began the 'Surya Kiran' military exercise in Saljhandi."
  }
 ]
