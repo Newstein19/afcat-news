@@ -1,57 +1,57 @@
 [
  {
-  "q": "Which military exercise was recently hosted by the Indian Navy at the Maritime Warfare Centre in Kochi?",
+  "q": "Which state's traditional martial art 'Karra samu' is set to be featured at the Khelo India games?",
   "options": [
-   "Surya Kiran",
-   "IMEX TTX 2026",
-   "Malabar",
-   "Varuna"
-  ],
-  "answer": 1,
-  "why": "The Indian Navy hosted the IMEX TTX 2026 exercise in Kochi."
- },
- {
-  "q": "India has recently emerged as the ___ largest exporter of defence goods to Europe.",
-  "options": [
-   "1st",
-   "2nd",
-   "3rd",
-   "4th"
+   "Kerala",
+   "Punjab",
+   "Telangana",
+   "Maharashtra"
   ],
   "answer": 2,
-  "why": "India has emerged as the 3rd largest exporter of defence goods to Europe."
+  "why": "Telangana's traditional stick-fighting art 'Karra samu' will be highlighted at Khelo India."
  },
  {
-  "q": "Which Indian sportsperson recently became the first Indian to win the Crucible Cup in Snooker 900?",
+  "q": "The delivery of which advanced multi-role helicopters has been completed to boost the Indian Navy's warfare capability?",
   "options": [
-   "Pankaj Advani",
-   "Aditya Mehta",
-   "B. Aparajith",
-   "Sourav Kothari"
+   "MH-60R Romeo",
+   "CH-47F Chinook",
+   "AH-64E Apache",
+   "HAL Rudra"
   ],
   "answer": 0,
-  "why": "Pankaj Advani became the first Indian to win the Crucible Cup in Snooker 900."
+  "why": "The complete delivery of MH-60R Romeo helicopters strengthens Indian naval operations."
  },
  {
-  "q": "Apple is set to open its very first retail store in which Indian city in December?",
+  "q": "Which lunar mission's rover prototype was recently unveiled?",
   "options": [
-   "Bengaluru",
-   "Mumbai",
-   "Hyderabad",
-   "Chennai"
+   "Chandrayaan-3",
+   "Chandrayaan-4",
+   "Chandrayaan-5/LUPEX",
+   "Chandrayaan-6"
   ],
   "answer": 2,
-  "why": "Apple is scheduled to open its first store in Hyderabad on December 10."
+  "why": "A prototype of the upcoming Chandrayaan-5/LUPEX lunar rover was showcased."
  },
  {
-  "q": "The joint military exercise 'Surya Kiran' is conducted between India and which neighbouring country?",
+  "q": "In which city is the Lohegaon Air Force Station located, where the IAF recently showcased its aerial prowess?",
   "options": [
-   "Bhutan",
-   "Nepal",
-   "Sri Lanka",
-   "Bangladesh"
+   "Bengaluru",
+   "Pune",
+   "Ambala",
+   "Nagpur"
   ],
   "answer": 1,
-  "why": "India and Nepal began the 'Surya Kiran' military exercise in Saljhandi."
+  "why": "Lohegaon Air Force Station is situated in Pune, Maharashtra."
+ },
+ {
+  "q": "The Indian Army successfully landed and took off four microlight aircraft on a highway in which state?",
+  "options": [
+   "Rajasthan",
+   "Gujarat",
+   "Uttar Pradesh",
+   "Punjab"
+  ],
+  "answer": 1,
+  "why": "The historic exercise involving microlight aircraft took place on a Gujarat highway."
  }
 ]
