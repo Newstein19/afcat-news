@@ -1,57 +1,57 @@
 [
  {
-  "q": "Which state's traditional martial art 'Karra samu' is set to be featured at the Khelo India games?",
+  "q": "Who recently assumed charge as the 31st Army Chief of India?",
   "options": [
-   "Kerala",
-   "Punjab",
-   "Telangana",
-   "Maharashtra"
-  ],
-  "answer": 2,
-  "why": "Telangana's traditional stick-fighting art 'Karra samu' will be highlighted at Khelo India."
- },
- {
-  "q": "The delivery of which advanced multi-role helicopters has been completed to boost the Indian Navy's warfare capability?",
-  "options": [
-   "MH-60R Romeo",
-   "CH-47F Chinook",
-   "AH-64E Apache",
-   "HAL Rudra"
+   "General Dhiraj Seth",
+   "General Manoj Pande",
+   "General Upendra Dwivedi",
+   "General Anil Chauhan"
   ],
   "answer": 0,
-  "why": "The complete delivery of MH-60R Romeo helicopters strengthens Indian naval operations."
+  "why": "General Dhiraj Seth assumed charge as the 31st Army chief."
  },
  {
-  "q": "Which lunar mission's rover prototype was recently unveiled?",
+  "q": "What is the name of the final Project 17A frigate recently received by the Indian Navy from GRSE?",
   "options": [
-   "Chandrayaan-3",
-   "Chandrayaan-4",
-   "Chandrayaan-5/LUPEX",
-   "Chandrayaan-6"
+   "INS Nilgiri",
+   "INS Vindhyagiri",
+   "INS Udaygiri",
+   "INS Taragiri"
+  ],
+  "answer": 1,
+  "why": "The Indian Navy received the final Project 17A frigate named Vindhyagiri."
+ },
+ {
+  "q": "According to a recent announcement by the Defence Secretary, India has emerged as the third-largest arms exporter to which region?",
+  "options": [
+   "Africa",
+   "Europe",
+   "Latin America",
+   "Southeast Asia"
+  ],
+  "answer": 1,
+  "why": "India has emerged as the third-largest arms exporter to Europe."
+ },
+ {
+  "q": "Which organization recently cut the daily Cash Reserve Ratio (CRR) maintenance requirement to 90%?",
+  "options": [
+   "State Bank of India",
+   "Ministry of Finance",
+   "Reserve Bank of India",
+   "NITI Aayog"
   ],
   "answer": 2,
-  "why": "A prototype of the upcoming Chandrayaan-5/LUPEX lunar rover was showcased."
+  "why": "The RBI cut the daily CRR maintenance requirement to 90%."
  },
  {
-  "q": "In which city is the Lohegaon Air Force Station located, where the IAF recently showcased its aerial prowess?",
+  "q": "A pond heron tested positive for avian influenza in which city?",
   "options": [
-   "Bengaluru",
-   "Pune",
-   "Ambala",
-   "Nagpur"
+   "Coimbatore",
+   "Mysuru",
+   "Kochi",
+   "Madurai"
   ],
-  "answer": 1,
-  "why": "Lohegaon Air Force Station is situated in Pune, Maharashtra."
- },
- {
-  "q": "The Indian Army successfully landed and took off four microlight aircraft on a highway in which state?",
-  "options": [
-   "Rajasthan",
-   "Gujarat",
-   "Uttar Pradesh",
-   "Punjab"
-  ],
-  "answer": 1,
-  "why": "The historic exercise involving microlight aircraft took place on a Gujarat highway."
+  "answer": 0,
+  "why": "A pond heron found dead in Coimbatore tested positive for avian influenza."
  }
 ]
